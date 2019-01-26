@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterCaustics
+  m_Shader: {fileID: 4800000, guid: baec0d9c1b68cb74d8baced0d5309020, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_5F7A602F:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_14879E1F_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4A4CD75_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_A7FFBF6D_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_C86D6A57_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D1EED4D1_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Subgraph_A6EE9E84_Texture2D6AD947C5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_83AC5829: 0.05
+    - Vector1_E8C63353: 0.24
+    m_Colors:
+    - Color_BFC9ABE2: {r: 0.9716981, g: 0.27959237, b: 0.27959237, a: 1}
