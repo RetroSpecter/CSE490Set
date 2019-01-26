@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PostcardEffect
+  m_Shader: {fileID: 4800000, guid: b4ec331084f902443a1f2c75f269d287, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_A56C8578_Texture:
+        m_Texture: {fileID: 2800000, guid: 50885c27c5233544fb54e4e1318dd3d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_76A6ED1F: 2.92
+    - Vector1_F92B3FF: 0.392
+    m_Colors:
+    - Color_4BF96B9: {r: 1, g: 1, b: 1, a: 1}
