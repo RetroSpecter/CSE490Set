@@ -142,7 +142,7 @@ PlayerSettings:
     oculus:
       sharedDepthBuffer: 0
       dashSupport: 0
-    enable360StereoCapture: 0
+    enable360StereoCapture: 1
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   m_ColorGamuts: 0000000003000000
