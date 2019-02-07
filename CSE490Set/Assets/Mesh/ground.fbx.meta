@@ -43,7 +43,32 @@ ModelImporter:
     4300004: node_id35
     4300006: node_id38
     4300008: node_id41
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_44
+    second: {fileID: 2100000, guid: c1a30e68427d22847a2d15d36f9a7311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_45
+    second: {fileID: 2100000, guid: c1a30e68427d22847a2d15d36f9a7311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_46
+    second: {fileID: 2100000, guid: c1a30e68427d22847a2d15d36f9a7311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_47
+    second: {fileID: 2100000, guid: c1a30e68427d22847a2d15d36f9a7311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_48
+    second: {fileID: 2100000, guid: c1a30e68427d22847a2d15d36f9a7311, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

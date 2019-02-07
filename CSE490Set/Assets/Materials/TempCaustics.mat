@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: WaterSurface
+  m_Name: TempCaustics
   m_Shader: {fileID: 4800000, guid: cbd40d23827929f4f9c2973c468b2849, type: 3}
   m_ShaderKeywords: BOOLEAN_2CEAD9E_ON
   m_LightmapFlags: 4
@@ -104,7 +104,7 @@ Material:
     - Boolean_3F26F182: 0
     - Boolean_4B5A289D: 0
     - Boolean_7FCCB4BC: 0
-    - Vector1_14998F70: 200
+    - Vector1_14998F70: 117.8
     - Vector1_177ED08: 0.1
     - Vector1_222FC5F: 0.5
     - Vector1_2A315876: 0.1
@@ -154,14 +154,14 @@ Material:
     - Color_20C02709: {r: 1, g: 0.766, b: 0.33599997, a: 0}
     - Color_52858BDA: {r: 0.8962264, g: 0.19869167, b: 0.19869167, a: 0}
     - Color_5A22009C: {r: 1, g: 1, b: 1, a: 0}
-    - Color_75479277: {r: 0.19450872, g: 0.67620885, b: 0.8773585, a: 0}
+    - Color_75479277: {r: 0.1484069, g: 0.17779584, b: 0.21698111, a: 0.16470589}
     - Color_7792CCA4: {r: 0, g: 0, b: 0, a: 0}
     - Color_B5BBC7C2: {r: 0.6792453, g: 0.27233887, b: 0.27233887, a: 0}
     - Color_B773F8E8: {r: 0, g: 0, b: 0, a: 0}
     - Color_BFC9ABE2: {r: 1, g: 1, b: 1, a: 0}
     - Color_E0F39BB8: {r: 0.28155038, g: 0.33496037, b: 0.3490566, a: 0}
     - Color_E69285C: {r: 0.5660378, g: 0.5633677, b: 0.5633677, a: 0}
-    - Color_FEE4C875: {r: 0.38033998, g: 0.6479714, b: 0.7264151, a: 0}
+    - Color_FEE4C875: {r: 0.5754717, g: 0.38591528, b: 0.13843894, a: 0.27450982}
     - Vector2_1800F3E2: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_2E9C9AF9: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_7AD323AA: {r: 1, g: 1, b: 0, a: 0}
