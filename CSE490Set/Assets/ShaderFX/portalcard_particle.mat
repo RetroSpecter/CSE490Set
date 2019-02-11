@@ -8,17 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: portalcard_particle
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 8516d7a69675844a7a0b7095af7c46af, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
   - ALWAYS
-  - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -55,8 +54,6 @@ Material:
     - Vector1_5EC4FDDD: 0.58
     - Vector1_D2EF5567: 1.3
     - Vector1_F24F662A: 0
-    - _AlphaClip: 0
-    - _Blend: 0
     - _BlendOp: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
@@ -65,7 +62,7 @@ Material:
     - _ColorMode: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _EmissionEnabled: 1
     - _FlipbookMode: 0
     - _GlossMapScale: 1
@@ -75,7 +72,6 @@ Material:
     - _LightingEnabled: 1
     - _Metallic: 0
     - _Mode: 4
-    - _SampleGI: 0
     - _Shininess: 1
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
@@ -84,14 +80,13 @@ Material:
     - _SpecSource: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
-    - _Surface: 1
     - _UFalloff: 0.69
     - _ZWrite: 0
     m_Colors:
     - Color_712AC011: {r: 0.28324133, g: 0.36832282, b: 0.6320754, a: 0}
     - Color_FE5A7D4D: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 3.0314338, g: 3.0314338, b: 3.0314338, a: 0.46666667}
+    - _Color: {r: 3.031433, g: 3.031433, b: 3.031433, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0.869407, g: 0.869407, b: 0.869407, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
