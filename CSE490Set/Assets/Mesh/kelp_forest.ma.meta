@@ -3022,6 +3022,7 @@ ModelImporter:
     4300404: stick
     4300406: kelp
     4300408: kelp
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
