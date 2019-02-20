@@ -56,7 +56,7 @@ Shader "LightweightPipeline/Terrain/Caustic Terrain Base"
             #pragma vertex LitPassVertex
             #pragma fragment LitPassFragment
 
-            #include "LWRP/ShaderLibrary/Terrain/InputSurfaceTerrainBase.hlsl"
+            #include "Assets/Shaders/TerrainShaders/InputSurfaceTerrainBase.hlsl"
             #include "LWRP/ShaderLibrary/LightweightPassLit.hlsl"
             ENDHLSL
         }

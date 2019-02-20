@@ -146,7 +146,7 @@ half4 SpatmapFragment(VertexOutput IN) : SV_TARGET
     half3 normalTS;
     SplatmapMix(IN, defaultSmoothness, splat_control, weight, mixedDiffuse, normalTS);
 
-    half3 albedo = mixedDiffuse.rgb * SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uvControlAndLM.xy);
+    half3 albedo = mixedDiffuse.rgb;
     half smoothness = mixedDiffuse.a;
     half metallic = dot(splat_control, half4(_Metallic0, _Metallic1, _Metallic2, _Metallic3));
     half3 specular = half3(0, 0, 0);
@@ -154,9 +154,7 @@ half4 SpatmapFragment(VertexOutput IN) : SV_TARGET
 
     InputData inputData;
     InitializeInputData(IN, normalTS, inputData);
-	//half4 color = LightweightFragmentPBR(inputData, albedo, metallic, specular, smoothness, /* occlusion */ 1.0, /* emission */ half3(0, 0, 0), alpha) + _DebugColor;
-    half4 color = LightweightFragmentPBR(inputData, albedo, metallic, specular, smoothness, /* occlusion */ 1.0, /* emission */ half3(0, 0, 0), alpha);
-
+	half4 color = LightweightFragmentPBR(inputData, albedo, metallic, specular, smoothness, /* occlusion */ 1.0, /* emission */ half3(0, 0, 0), alpha);
     SplatmapFinalColor(color, inputData.fogCoord);
 
     return half4(color.rgb, 1);

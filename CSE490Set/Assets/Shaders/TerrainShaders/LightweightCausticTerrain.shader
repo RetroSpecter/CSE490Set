@@ -24,8 +24,7 @@ Shader "LightweightPipeline/Terrain/Caustic Terrain"
         // used in fallback on old cards & base map
         [HideInInspector] _MainTex("BaseMap (RGB)", 2D) = "grey" {}
         [HideInInspector] _Color("Main Color", Color) = (1,1,1,1)
-		_DebugColor("Color", Color) = (1,1,1,1)
-		_CausticTexture("Caustic", 2D) = "grey" {}
+		_DebugColor("test", Color) = (1,1,1,1)
     }
 
     SubShader
