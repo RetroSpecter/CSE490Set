@@ -23,18 +23,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _SkyExponent1: 6.17
-    - _SkyExponent2: 3.02
-    - _SkyIntensity: 1.96
-    - _SunAlpha: 550
-    - _SunAltitude: 38
-    - _SunAzimuth: 20
-    - _SunBeta: 1
+    - _SkyExponent1: 4.4
+    - _SkyExponent2: 203.97
+    - _SkyIntensity: 1.09
+    - _SunAlpha: 549.73
+    - _SunAltitude: -139.2
+    - _SunAzimuth: 21.7
+    - _SunBeta: -6.3
     - _SunIntensity: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyColor1: {r: 0.37, g: 0.52, b: 0.73, a: 0}
-    - _SkyColor2: {r: 0.24528302, g: 0.7183288, b: 0.9811321, a: 0}
-    - _SkyColor3: {r: 0.36999997, g: 0.52, b: 0.73, a: 0}
-    - _SunColor: {r: 1, g: 0.99, b: 0.87, a: 1}
-    - _SunVector: {r: 0.26951554, g: 0.6156615, b: 0.74048793, a: 0}
+    - _SkyColor1: {r: 0.24296905, g: 0.3799221, b: 0.5660378, a: 0}
+    - _SkyColor2: {r: 0.5284027, g: 0.7075472, b: 0.46391067, a: 0}
+    - _SkyColor3: {r: 0.242969, g: 0.37992206, b: 0.5660378, a: 0}
+    - _SunColor: {r: 1, g: 0.98999995, b: 0.87, a: 0}
+    - _SunVector: {r: -0.27989644, g: -0.6534207, b: -0.7033487, a: 0}
